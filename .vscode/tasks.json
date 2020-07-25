@@ -14,7 +14,7 @@
 		},
 		{
 			"type": "shell",
-			"label": "C/C++: cl.exe build active file",
+			"label": "C/C++: cl.exe build active file. Debug",
 			"command": "cl.exe",
 			"args": [
 				"/Zi",
