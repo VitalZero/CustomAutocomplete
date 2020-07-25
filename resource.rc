@@ -1,0 +1,13 @@
+// scratch.rc
+#include <windows.h>
+
+1 DIALOGEX DISCARDABLE  32, 32, 200, 56
+STYLE DS_MODALFRAME |  WS_POPUP |
+      WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Sample"
+FONT 8, "MS Shell Dlg"
+BEGIN
+ LTEXT "What is your favorite Seattle restaurant?",-1,7,8,184,10
+ EDITTEXT 100,7,18,184,14
+ PUSHBUTTON "OK",IDOK,146,38,50,14
+END
